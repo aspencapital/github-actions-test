@@ -1,0 +1,10 @@
+name: james
+age: 100
+address: "earth: oregon"
+active: true
+key:
+  key: value
+  key2: 233
+  key3:
+    key: value
+    key2: value
