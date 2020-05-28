@@ -1,11 +1,8 @@
 name: actions workflow
 
 on:
-  # push:
-  pull_request:
-  schedule:
-    - cron: "0/5 * * * *"
-    - cron: "0/6 * * * *"
+  repository_dispatch:
+    types: [build]
 
 jobs:
   run-github-actions:
